@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <style>
+        div h1 {
+            color: purple;
+        }
+        div p {
+            color: blue;
+        }
+
+        #list_div {
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            border: 12px double orange;
+            padding: 10px;
+        }
+    </style>
+
+    <div id="list_div">
+        <h1>The Herd</h1>
+   
+    <p> {% for p in pig %}
+    <div>{{ p }}</div>
+    {% endfor %} </p>
+    </div>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Pigs", "Pigs\Pigs.pyproj", "{A6328440-BD7A-4D85-BE17-973313BB55AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6328440-BD7A-4D85-BE17-973313BB55AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6328440-BD7A-4D85-BE17-973313BB55AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6328440-BD7A-4D85-BE17-973313BB55AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6328440-BD7A-4D85-BE17-973313BB55AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

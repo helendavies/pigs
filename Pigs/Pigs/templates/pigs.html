@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <style>
+        h1 {
+            color: hotpink;
+        }
+        p {
+            color: lawngreen;
+        }
+
+        div h1 {
+            color: red;
+        }
+
+        div p {
+            color: blue;
+        }
+
+        #name_div {
+            position: abslute;
+            left: 100px;
+            top: 100px;
+            border: 15px dotted blue;
+            padding: 20px;
+        }
+
+        #info_div {
+            position: absolute;
+            left: 100px;
+            top: 250px;
+            border: 10px double lawngreen;
+            padding: 20px;
+        }
+
+    </style>
+  
+    <div id="name_div">
+        <h1>This guinea pig is called: {{ pigname }}</h1>
+        </div>
+    <div id="info_div">
+        <p>{{ pigname }} is {{ pigsex }} and was born on: {{ pigdob }}</p>
+        </div>
+  
+</body>
+</html>
